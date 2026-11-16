@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## App architecture
+- Keep each workspace in a separate TanStack file route with a shared root shell so navigation and page metadata remain consistent.
+- This is a frontend prototype: keep mock records and simulated actions in React state, without real authentication or external transactions.
+- Render the shipping map from bundled simplified geography so it remains available without a map service.
