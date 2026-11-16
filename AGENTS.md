@@ -33,3 +33,4 @@ use the editor.
 - Keep each workspace in a separate TanStack file route with a shared root shell so navigation and page metadata remain consistent.
 - This is a frontend prototype: keep mock records and simulated actions in React state, without real authentication or external transactions.
 - Render the shipping map from bundled simplified geography so it remains available without a map service.
+- Keep account and workspace preferences in the shared shell's React state and edit them through a settings dialog so changes apply across pages without introducing real account services.
