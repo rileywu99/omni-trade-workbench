@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { Logistics } from '@/components/omnitrade/workspaces';
+export const Route = createFileRoute('/logistics')({head:()=>({meta:[{title:'Logistics Orchestrator | OmniTrade AI'},{name:'description',content:'Live shipping routes and intelligent logistics optimization.'},{property:'og:title',content:'Logistics Orchestrator | OmniTrade AI'},{property:'og:description',content:'Live shipping routes and intelligent logistics optimization.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:Logistics});

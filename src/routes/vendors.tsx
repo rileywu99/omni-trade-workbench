@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { Vendors } from '@/components/omnitrade/workspaces';
+export const Route = createFileRoute('/vendors')({head:()=>({meta:[{title:'Vendor & PO Automation | OmniTrade AI'},{name:'description',content:'AI-powered vendor negotiation and purchase order management.'},{property:'og:title',content:'Vendor & PO Automation | OmniTrade AI'},{property:'og:description',content:'AI-powered vendor negotiation and purchase order management.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:Vendors});
