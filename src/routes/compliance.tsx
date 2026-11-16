@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { Compliance } from '@/components/omnitrade/workspaces';
+export const Route = createFileRoute('/compliance')({head:()=>({meta:[{title:'Trade Compliance | OmniTrade AI'},{name:'description',content:'Automated document review and cross-border regulatory intelligence.'},{property:'og:title',content:'Trade Compliance | OmniTrade AI'},{property:'og:description',content:'Automated document review and cross-border regulatory intelligence.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:Compliance});

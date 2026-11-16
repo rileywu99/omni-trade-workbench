@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { Finance } from '@/components/omnitrade/workspaces';
+export const Route = createFileRoute('/finance')({head:()=>({meta:[{title:'Financial Reconciliation | OmniTrade AI'},{name:'description',content:'Three-way invoice matching and multi-currency clearing.'},{property:'og:title',content:'Financial Reconciliation | OmniTrade AI'},{property:'og:description',content:'Three-way invoice matching and multi-currency clearing.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:Finance});
