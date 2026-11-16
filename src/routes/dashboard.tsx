@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { Dashboard } from '@/components/omnitrade/dashboard';
+export const Route = createFileRoute('/dashboard')({head:()=>({meta:[{title:'Command Center | OmniTrade AI'},{name:'description',content:'Your global supply chain overview, shipment performance, and operational intelligence.'},{property:'og:title',content:'Command Center | OmniTrade AI'},{property:'og:description',content:'Global operations, intelligently connected.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),component:Dashboard});
